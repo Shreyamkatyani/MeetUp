@@ -80,8 +80,7 @@ lib/
    cd JOIN-ME
 Install dependencies
 
-bash
-Copy code
+
 flutter pub get
 Add your Firebase configuration
 
@@ -89,14 +88,13 @@ Replace the existing google-services.json (Android) and GoogleService-Info.plist
 
 Or re-run:
 
-bash
-Copy code
 flutterfire configure
+
 Run the app
 
-bash
-Copy code
+
 flutter run
+
 ## 🔐 Firestore Collections Overview
 Collection	Description
 users	Stores user profiles (username, dob, phone, photo, createdAt)
