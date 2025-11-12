@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.priyanshu.eventapp"
+    namespace = "com.shreyam.eventapp"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
 
@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.priyanshu.eventapp"       // ✅ Unique app ID
+        applicationId = "com.shreyam.eventapp"       // ✅ Unique app ID
         minSdk = 23                 // ✅ Minimum supported Android version
         targetSdk = 34            // ✅ Target Android version
         versionCode = 1                // ✅ Internal version
